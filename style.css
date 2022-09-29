@@ -33,7 +33,7 @@ body {
 
 .hero {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 32px;
 
 }
@@ -102,9 +102,84 @@ body {
     gap: 16px;
     max-width: 150px;
     padding: 8px;
+    margin-bottom: 36px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    padding: 36px;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.quotemain {
+    color: #1F2937;
+    font-style: italic;
+    font-weight:lighter;
+    font-size: 36px;
+    max-width: 600px;
+    padding: 8px;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.quoteauthor {
+    font-weight: bold;
 
 }
 
+.calltoaction {
+    background-color:#3882f6;
+    color:#F9FAF8;
+    border-radius: 8px;
+    margin: 32px;
+    padding: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.call {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 450px;
+}
+
+.callcontainer {
+    
+
+}
+
+.callbold {
+    font-weight: bold;
+}
+
+.callbody {
+    color:#e5e7eb;
+    font-weight: lighter;
+}
+
+.signup2{
+    background-color: #3882f6;
+    color:#F9FAF8;
+    font-weight: 600;
+    border-color: #F9FAF8;
+    border-style: solid;
+    border-radius: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 8px;
+}
+
+.footer {
+    color:#e5e7eb;
+    margin: 0;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+}
 
 
 a {
